@@ -9,6 +9,5 @@ class Televisi extends Produk {
 }
 
 $produk01 = new Televisi();
-echo $produk01->merek;
-
-//coba
+echo $produk01->$merekProduk;
+echo "woy";
