@@ -1,0 +1,23 @@
+<?php
+
+class Televisi {
+    public $jenis;
+    public $merk;
+    public $stok;
+    public $ukuranLayar;
+
+    public function __construct($jenis, $merk, $stok, $ukuranLayar ) {
+        $this->jenis = $jenis;
+        $this->merk = $merk;
+        $this->stok = $stok;
+        $this->ukuranLayar = $ukuranLayar;
+    
+        
+    }
+}
+
+    $produk01 = new Televisi("Televisi","Samsung",30,32);
+
+    echo "<pre>";
+    print_r($produk01);
+    echo "</pre>";
