@@ -4,7 +4,7 @@ class Produk {
     public $merek;
     public $stok;
 
-    public function __constructor($a, $b, $c){
+    public function __construct($a, $b, $c){
         $this->jenis = $a;
         $this->merek = $b;
         $this->stok = $c;

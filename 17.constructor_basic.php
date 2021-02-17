@@ -9,3 +9,4 @@ class Produk {
 
 $produk01 = new Produk();
 $produk02 = new Produk();
+$produk03 = new Produk();
